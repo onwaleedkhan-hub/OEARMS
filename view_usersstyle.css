@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table container */
+.table-responsive {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* Table styling */
+.table {
+    margin-bottom: 0;
+    border-radius: 0.5rem;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+    text-align: center;
+    padding: 0.5rem 0.75rem;
+}
+
+.table th {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.table td {
+    font-size: 0.85rem;
+}
+
+/* Make Agency column wider */
+.table th:nth-child(3), .table td:nth-child(3) {
+    min-width: 200px;
+}
+
+/* Password text styling */
+.password-text {
+    font-family: monospace;
+    color: #343a40;
+}
+
+/* Buttons styling */
+.btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.btn i {
+    margin-right: 0.25rem;
+}
+
+/* Table hover effect */
+.table tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Header styling */
+.text-primary {
+    color: #0d6efd !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
+    .btn {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.4rem;
+    }
+}

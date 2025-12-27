@@ -1,0 +1,56 @@
+/* ===== BODY ===== */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    border-radius: 8px;
+}
+
+/* ===== DASHBOARD CARDS ===== */
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.dashboard-card i {
+    transition: transform 0.3s;
+}
+
+.dashboard-card:hover i {
+    transform: scale(1.2) rotate(10deg);
+}
+
+/* ===== CARD TEXT ===== */
+.dashboard-card h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dashboard-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* ===== BUTTONS ===== */
+.dashboard-card .btn {
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .dashboard-card {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,136 @@
+/* =====================
+   GLOBAL STYLES
+===================== */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #212529;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+    border-bottom: 3px solid #0dcaf0;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+}
+
+/* =====================
+   SEARCH BAR
+===================== */
+form input[type="search"] {
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+form input[type="search"]:focus {
+    border-color: #0dcaf0;
+    box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.25);
+}
+
+/* =====================
+   PAGE TITLE
+===================== */
+h3 {
+    letter-spacing: 0.5px;
+}
+
+/* =====================
+   CARD
+===================== */
+.card {
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+.card-body {
+    background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
+/* =====================
+   TABLE
+===================== */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table thead th {
+    vertical-align: middle;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f9fb;
+    transform: scale(1.002);
+}
+
+/* =====================
+   BADGES (STATUS)
+===================== */
+.badge {
+    font-size: 0.75rem;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+/* =====================
+   BUTTONS
+===================== */
+.btn-outline-primary {
+    border-width: 1.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.btn-outline-info:hover {
+    background-color: #0dcaf0;
+    color: #ffffff;
+}
+
+/* =====================
+   EMPTY STATE
+===================== */
+.text-muted i {
+    opacity: 0.6;
+}
+
+/* =====================
+   RESPONSIVE TWEAKS
+===================== */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .table thead {
+        font-size: 0.8rem;
+    }
+}

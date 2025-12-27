@@ -1,0 +1,128 @@
+/* =========================
+   Body & Typography
+   ========================= */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f1f5f9;
+    color: #333;
+    padding-top: 0x;
+}
+/* Hover effect for navbar links */
+  .hover-effect:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  /* Remove underline and adjust spacing */
+  .navbar-nav .nav-link {
+    transition: all 0.3s ease;
+  }
+/* =========================
+   Navbar
+   ========================= */
+.navbar {
+    border-radius: 0.5rem;
+}
+
+.nav-hover:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* =========================
+   Form Container
+   ========================= */
+.form-custom {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================
+   Card Styling
+   ========================= */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.9rem 1rem;
+    border-bottom: none;
+}
+
+/* Gradient Headers */
+.header-customer { background: linear-gradient(90deg, #007bff, #00c6ff); color: #fff; }
+.header-visa { background: linear-gradient(90deg, #6c757d, #adb5bd); color: #fff; }
+.header-sponsor { background: linear-gradient(90deg, #28a745, #85e085); color: #fff; }
+.header-embassy { background: linear-gradient(90deg, #ffc107, #ffe066); color: #fff; }
+.header-status { background: linear-gradient(90deg, #343a40, #6c757d); color: #fff; }
+
+/* =========================
+   Inputs & Selects
+   ========================= */
+.form-control, .form-select {
+    border-radius: 0.5rem;
+    padding: 0.65rem 0.75rem;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* =========================
+   Submit Button
+   ========================= */
+.btn-primary {
+    background-color: #007bff;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    padding: 0.65rem 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   Input Group Icon
+   ========================= */
+.input-group-text {
+    background-color: #e9ecef;
+    border-radius: 0.5rem 0 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* =========================
+   Spacing
+   ========================= */
+.mb-3 label {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .form-custom {
+        padding: 1.5rem;
+    }
+    .btn-lg {
+        width: 100%;
+    }
+}
