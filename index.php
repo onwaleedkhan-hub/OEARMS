@@ -41,6 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <title>User Login | OEARMS</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 <link rel="stylesheet" href="indexstyle.css">
 <link rel="icon" type="image/png" href="log.jpg">
 
@@ -55,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="card shadow-lg p-4 login-card text-center">
             <!-- Professional Lock Icon -->
         <div class="icon-logo mb-4">
-            <i class="bi bi-lock-fill"></i>
+              <i class="bi bi-shield-lock-fill"></i>
         </div>
 
         <?php if($error): ?>
@@ -102,3 +103,4 @@ function togglePassword() {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
